@@ -1,0 +1,7 @@
+npm init -y
+
+npm i express cors morgan tsx
+
+npm i -D typescript @types/node tsx pkgroll @types/cors @types/express @types/morgan
+
+npx tsc --init // crea un archivo tsconfig.json para el uso de typescript (aqui se hace una configuracion del outDir y rootDir ...)

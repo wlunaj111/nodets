@@ -1,0 +1,33 @@
+/tu-proyecto
+│── /src
+│   ├── /config         # Configuración (variables de entorno, conexión a DB, etc.)
+│   │   ├── db.ts
+│   │   ├── env.ts
+│   │   ├── logger.ts
+│   ├── /routes         # Definición de rutas (API endpoints)
+│   │   ├── index.ts
+│   │   ├── user.routes.ts
+│   ├── /controllers    # Controladores que manejan la lógica de negocio
+│   │   ├── user.controller.ts
+│   ├── /services       # Capa de servicios (interactúa con la base de datos o APIs externas)
+│   │   ├── user.service.ts
+│   ├── /models         # Modelos y esquemas de base de datos
+│   │   ├── user.model.ts
+│   ├── /middlewares    # Middlewares (auth, logs, validaciones)
+│   │   ├── auth.middleware.ts
+│   │   ├── errorHandler.middleware.ts
+│   ├── /utils          # Utilidades y helpers generales
+│   │   ├── response.util.ts
+│   │   ├── hash.util.ts
+│   ├── /validators     # Validaciones de datos (Joi, zod, etc.)
+│   │   ├── user.validator.ts
+│   ├── app.ts          # Configuración principal de Express
+│   ├── server.ts       # Punto de entrada de la aplicación
+│── /tests              # Pruebas unitarias e integración
+│── /public             # Archivos públicos (imágenes, documentos, etc.)
+│── /scripts            # Scripts para despliegue o configuración
+│── .env                # Variables de entorno
+│── .gitignore          # Archivos a ignorar en Git
+│── package.json        # Dependencias del proyecto
+│── tsconfig.json       # Configuración de TypeScript (si usas TS)
+
